@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="overlay" onclick="showSidebar()"></div>
+        <div class="sidebar">
+            <div class="btn-container">
+                <i class="fa fa-times close-btn" onclick="showSidebar()"></i>
+            </div>
+            <ul>
+                <li class="item active"><span>Home</span></li>
+                <li class="item"><span>Services</span></li>
+                <li class="item"><span>News</span></li>
+                <li class="item"><span>Blog</span></li>
+                <li class="item"><span>Contact</span></li>
+            </ul>
+        </div>
+        <div>
+            <i class="fa fa-bars sidebar-btn" onClick="showSidebar()"></i>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                <div class="logo">
+                </div>
+                <div class="slogan">
+                    <p class="title">
+                        Lorem ipsum dolor sit asmet?
+                    </p>
+                    <p class="text-area">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque a.
+                    </p>
+                </div>
+                <div class="card-list">
+                    <div class="card-item">
+                        <div class="card-container">
+                            <div class="card-title">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    <img class="card-img" src="./img/css-icon 1.png">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                                </p>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-container">
+                            <div class="card-title">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    <img class="card-img" src="./img/html-icon 1.png">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-container">
+                            <div class="card-title">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                   
+                                    <img class="card-img" src="./img/url-icon 1.png">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <span>Copyright © 2021</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSidebar(){
+            var sidebar = document.querySelector(".sidebar");
+            var overlay = document.querySelector(".overlay");
+            sidebar.classList.toggle("show");
+            overlay.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
